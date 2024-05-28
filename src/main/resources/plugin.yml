@@ -1,0 +1,30 @@
+name: ColorControl
+version: '${project.version}'
+main: ua.dokat.colorcontrol.ColorControl
+api-version: '1.16'
+commands:
+  realmInfo:
+
+  join:
+    usage: /join <realm_id>
+
+  lobby:
+
+  restart:
+    usage: /restart <realm_name>
+
+  close:
+    usage: /close <realm_name>
+
+  stop:
+    usage:
+      /stop on realm
+      /stop <realm_name>
+  start:
+    usage:
+      /start on realm
+      /start <realm_name>
+  test:
+    usage: /<command>
+  cube:
+    usage: /<command>

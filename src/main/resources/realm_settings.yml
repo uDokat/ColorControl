@@ -1,0 +1,22 @@
+redSpawn: [-160.5, 41, 94.5, 0, 0]
+blueSpawn: [-160.5, 41, 186.4, -180, 0]
+
+timeToStart: 10
+
+classic:
+  name: 'CC-'
+  full_name: 'ColorControl'
+  startId: 0
+  endId: 100
+  playersForStart: 2
+  maxPlayers: 10
+  realmCount: 1
+
+def:
+  name: 'CCD-'
+  full_name: "ColorControl Defenders"
+  startId: 100
+  endId: 200
+  playersForStart: 8
+  maxPlayers: 10
+  realmCount: 1
